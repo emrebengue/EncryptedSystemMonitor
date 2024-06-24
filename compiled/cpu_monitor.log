@@ -1,0 +1,38 @@
+Log file for CPU monitoring has been initialized
+
+2024-06-24 10:42:36
+Running CPU monitoring task...
+CPU utilization: -nan%
+
+Top 10 processes by CPU usage:
+PID: 1175335, Name: (monitorTasks), CPU usage time: 1 seconds, CPU utilization: 100%
+PID: 3202, Name: (firefox-bin), CPU usage time: 25134 seconds, CPU utilization: 5.1722%
+PID: 9411, Name: (clangd.main), CPU usage time: 6667 seconds, CPU utilization: 1.5761%
+PID: 2488, Name: (gnome-shell), CPU usage time: 7105 seconds, CPU utilization: 1.4566%
+PID: 1938, Name: (Xorg), CPU usage time: 5271 seconds, CPU utilization: 1.08047%
+PID: 8901, Name: (nvim), CPU usage time: 3851 seconds, CPU utilization: 0.909901%
+PID: 5456, Name: (tmux:, CPU usage time: 3893 seconds, CPU utilization: 0.795038%
+PID: 851, Name: (execsnoop-bpfcc), CPU usage time: 2221 seconds, CPU utilization: 0.454635%
+PID: 5101, Name: (gnome-terminal-), CPU usage time: 1592 seconds, CPU utilization: 0.372462%
+PID: 3298, Name: (WebExtensions), CPU usage time: 1808 seconds, CPU utilization: 0.372154%
+CPU monitoring task iteration completed.
+
+
+2024-06-24 10:42:39
+Running CPU monitoring task...
+CPU utilization: 4.6797%
+
+Top 10 processes by CPU usage:
+PID: 3202, Name: (firefox-bin), CPU usage time: 25159 seconds, CPU utilization: 5.17413%
+PID: 9411, Name: (clangd.main), CPU usage time: 6667 seconds, CPU utilization: 1.57498%
+PID: 2488, Name: (gnome-shell), CPU usage time: 7106 seconds, CPU utilization: 1.45591%
+PID: 1938, Name: (Xorg), CPU usage time: 5273 seconds, CPU utilization: 1.08021%
+PID: 1175335, Name: (monitorTasks), CPU usage time: 3 seconds, CPU utilization: 0.990099%
+PID: 8901, Name: (nvim), CPU usage time: 3851 seconds, CPU utilization: 0.909252%
+PID: 5456, Name: (tmux:, CPU usage time: 3894 seconds, CPU utilization: 0.794752%
+PID: 851, Name: (execsnoop-bpfcc), CPU usage time: 2223 seconds, CPU utilization: 0.454763%
+PID: 5101, Name: (gnome-terminal-), CPU usage time: 1592 seconds, CPU utilization: 0.372199%
+PID: 3298, Name: (WebExtensions), CPU usage time: 1808 seconds, CPU utilization: 0.371923%
+CPU monitoring task iteration completed.
+
+

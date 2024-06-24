@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/emre/.scripts/EncryptedSystemMonitor/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -DXML_GE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -I/home/emre/.scripts/EncryptedSystemMonitor/include -isystem /home/emre/.scripts/EncryptedSystemMonitor/lib/local/poco/include  -o CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o -c /home/emre/.scripts/EncryptedSystemMonitor/src/CpuMonitorTask.cpp",
+  "file": "/home/emre/.scripts/EncryptedSystemMonitor/src/CpuMonitorTask.cpp"
+},
+{
+  "directory": "/home/emre/.scripts/EncryptedSystemMonitor/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -DXML_GE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -I/home/emre/.scripts/EncryptedSystemMonitor/include -isystem /home/emre/.scripts/EncryptedSystemMonitor/lib/local/poco/include  -o CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o -c /home/emre/.scripts/EncryptedSystemMonitor/src/MemoryMonitorTask.cpp",
+  "file": "/home/emre/.scripts/EncryptedSystemMonitor/src/MemoryMonitorTask.cpp"
+},
+{
+  "directory": "/home/emre/.scripts/EncryptedSystemMonitor/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -DXML_GE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -I/home/emre/.scripts/EncryptedSystemMonitor/include -isystem /home/emre/.scripts/EncryptedSystemMonitor/lib/local/poco/include  -o CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o -c /home/emre/.scripts/EncryptedSystemMonitor/src/decrypt.cpp",
+  "file": "/home/emre/.scripts/EncryptedSystemMonitor/src/decrypt.cpp"
+},
+{
+  "directory": "/home/emre/.scripts/EncryptedSystemMonitor/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -DXML_GE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -I/home/emre/.scripts/EncryptedSystemMonitor/include -isystem /home/emre/.scripts/EncryptedSystemMonitor/lib/local/poco/include  -o CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o -c /home/emre/.scripts/EncryptedSystemMonitor/src/encrypt.cpp",
+  "file": "/home/emre/.scripts/EncryptedSystemMonitor/src/encrypt.cpp"
+},
+{
+  "directory": "/home/emre/.scripts/EncryptedSystemMonitor/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -DXML_GE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -I/home/emre/.scripts/EncryptedSystemMonitor/include -isystem /home/emre/.scripts/EncryptedSystemMonitor/lib/local/poco/include  -o CMakeFiles/monitorTasks.dir/src/main.cpp.o -c /home/emre/.scripts/EncryptedSystemMonitor/src/main.cpp",
+  "file": "/home/emre/.scripts/EncryptedSystemMonitor/src/main.cpp"
+}
+]

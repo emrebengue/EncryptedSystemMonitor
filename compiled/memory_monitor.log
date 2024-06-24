@@ -1,0 +1,46 @@
+memory_monitor.log Log file for Memory monitoring has been initialized
+
+2024-06-24 10:42:36
+Running Memory Monitor Task...
+Total Virtual Memory: 35765.5 MB
+Virtual Memory Used: 8438.25 MB
+Virtual Memory Used by Process: 156260 MB
+Total Physical Memory: 15835 MB
+Physical Memory Used: 8438.25 MB
+Physical Memory Used by Process: 5120 MB
+Top 10 processes by memory usage:
+PID: 3202, Name: firefox-bin, Memory usage: 600852 KB, Memory utilization: 0.00361866%
+PID: 354902, Name: Isolated Web Co, Memory usage: 504032 KB, Memory utilization: 0.00303556%
+PID: 4524, Name: io.elementary.a, Memory usage: 353836 KB, Memory utilization: 0.002131%
+PID: 2488, Name: gnome-shell, Memory usage: 290972 KB, Memory utilization: 0.00175239%
+PID: 8939, Name: language_server, Memory usage: 256664 KB, Memory utilization: 0.00154577%
+PID: 3298, Name: WebExtensions, Memory usage: 219024 KB, Memory utilization: 0.00131908%
+PID: 354590, Name: Isolated Web Co, Memory usage: 218032 KB, Memory utilization: 0.00131311%
+PID: 564142, Name: Isolated Web Co, Memory usage: 211840 KB, Memory utilization: 0.00127582%
+PID: 8923, Name: language_server, Memory usage: 194560 KB, Memory utilization: 0.00117175%
+PID: 146552, Name: Isolated Web Co, Memory usage: 194204 KB, Memory utilization: 0.0011696%
+Memory monitoring task iteration completed.
+
+
+2024-06-24 10:42:39
+Running Memory Monitor Task...
+Total Virtual Memory: 35765.5 MB
+Virtual Memory Used: 8387.67 MB
+Virtual Memory Used by Process: 156260 MB
+Total Physical Memory: 15835 MB
+Physical Memory Used: 8387.67 MB
+Physical Memory Used by Process: 5376 MB
+Top 10 processes by memory usage:
+PID: 3202, Name: firefox-bin, Memory usage: 600808 KB, Memory utilization: 0.0036184%
+PID: 354902, Name: Isolated Web Co, Memory usage: 598628 KB, Memory utilization: 0.00360527%
+PID: 4524, Name: io.elementary.a, Memory usage: 353836 KB, Memory utilization: 0.002131%
+PID: 2488, Name: gnome-shell, Memory usage: 290972 KB, Memory utilization: 0.00175239%
+PID: 8939, Name: language_server, Memory usage: 256664 KB, Memory utilization: 0.00154577%
+PID: 3298, Name: WebExtensions, Memory usage: 219024 KB, Memory utilization: 0.00131908%
+PID: 354590, Name: Isolated Web Co, Memory usage: 218032 KB, Memory utilization: 0.00131311%
+PID: 564142, Name: Isolated Web Co, Memory usage: 211840 KB, Memory utilization: 0.00127582%
+PID: 8923, Name: language_server, Memory usage: 194560 KB, Memory utilization: 0.00117175%
+PID: 146552, Name: Isolated Web Co, Memory usage: 194204 KB, Memory utilization: 0.0011696%
+Memory monitoring task iteration completed.
+
+
