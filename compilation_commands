@@ -1,9 +1,0 @@
-# Navigate to the root of your project directory
-cd /path/to/EncryptedSystemMonitor
-
-# Compile monitor.cpp with the new include and lib paths
-g++ -o bin/monitor src/monitor.cpp -I$(pwd)/lib/local/poco/include -L$(pwd)/lib/local/poco/lib -lPocoUtil -lPocoFoundation
-
-# Compile encrypt.cpp and decrypt.cpp
-g++ -o bin/encrypt src/encrypt.cpp -lssl -lcrypto
-g++ -o bin/decrypt src/decrypt.cpp -lssl -lcrypto

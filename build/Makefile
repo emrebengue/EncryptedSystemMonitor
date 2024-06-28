@@ -129,125 +129,29 @@ monitorTasks/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/build
 .PHONY : monitorTasks/fast
 
-src/CpuMonitorTask.o: src/CpuMonitorTask.cpp.o
-.PHONY : src/CpuMonitorTask.o
+src/server.o: src/server.cpp.o
+.PHONY : src/server.o
 
 # target to build an object file
-src/CpuMonitorTask.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o
-.PHONY : src/CpuMonitorTask.cpp.o
+src/server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/server.cpp.o
+.PHONY : src/server.cpp.o
 
-src/CpuMonitorTask.i: src/CpuMonitorTask.cpp.i
-.PHONY : src/CpuMonitorTask.i
-
-# target to preprocess a source file
-src/CpuMonitorTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.i
-.PHONY : src/CpuMonitorTask.cpp.i
-
-src/CpuMonitorTask.s: src/CpuMonitorTask.cpp.s
-.PHONY : src/CpuMonitorTask.s
-
-# target to generate assembly for a file
-src/CpuMonitorTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.s
-.PHONY : src/CpuMonitorTask.cpp.s
-
-src/MemoryMonitorTask.o: src/MemoryMonitorTask.cpp.o
-.PHONY : src/MemoryMonitorTask.o
-
-# target to build an object file
-src/MemoryMonitorTask.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o
-.PHONY : src/MemoryMonitorTask.cpp.o
-
-src/MemoryMonitorTask.i: src/MemoryMonitorTask.cpp.i
-.PHONY : src/MemoryMonitorTask.i
+src/server.i: src/server.cpp.i
+.PHONY : src/server.i
 
 # target to preprocess a source file
-src/MemoryMonitorTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.i
-.PHONY : src/MemoryMonitorTask.cpp.i
+src/server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/server.cpp.i
+.PHONY : src/server.cpp.i
 
-src/MemoryMonitorTask.s: src/MemoryMonitorTask.cpp.s
-.PHONY : src/MemoryMonitorTask.s
-
-# target to generate assembly for a file
-src/MemoryMonitorTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.s
-.PHONY : src/MemoryMonitorTask.cpp.s
-
-src/decrypt.o: src/decrypt.cpp.o
-.PHONY : src/decrypt.o
-
-# target to build an object file
-src/decrypt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o
-.PHONY : src/decrypt.cpp.o
-
-src/decrypt.i: src/decrypt.cpp.i
-.PHONY : src/decrypt.i
-
-# target to preprocess a source file
-src/decrypt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/decrypt.cpp.i
-.PHONY : src/decrypt.cpp.i
-
-src/decrypt.s: src/decrypt.cpp.s
-.PHONY : src/decrypt.s
+src/server.s: src/server.cpp.s
+.PHONY : src/server.s
 
 # target to generate assembly for a file
-src/decrypt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/decrypt.cpp.s
-.PHONY : src/decrypt.cpp.s
-
-src/encrypt.o: src/encrypt.cpp.o
-.PHONY : src/encrypt.o
-
-# target to build an object file
-src/encrypt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o
-.PHONY : src/encrypt.cpp.o
-
-src/encrypt.i: src/encrypt.cpp.i
-.PHONY : src/encrypt.i
-
-# target to preprocess a source file
-src/encrypt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/encrypt.cpp.i
-.PHONY : src/encrypt.cpp.i
-
-src/encrypt.s: src/encrypt.cpp.s
-.PHONY : src/encrypt.s
-
-# target to generate assembly for a file
-src/encrypt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/encrypt.cpp.s
-.PHONY : src/encrypt.cpp.s
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/src/server.cpp.s
+.PHONY : src/server.cpp.s
 
 # Help Target
 help:
@@ -258,21 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... monitorTasks"
-	@echo "... src/CpuMonitorTask.o"
-	@echo "... src/CpuMonitorTask.i"
-	@echo "... src/CpuMonitorTask.s"
-	@echo "... src/MemoryMonitorTask.o"
-	@echo "... src/MemoryMonitorTask.i"
-	@echo "... src/MemoryMonitorTask.s"
-	@echo "... src/decrypt.o"
-	@echo "... src/decrypt.i"
-	@echo "... src/decrypt.s"
-	@echo "... src/encrypt.o"
-	@echo "... src/encrypt.i"
-	@echo "... src/encrypt.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
 .PHONY : help
 
 

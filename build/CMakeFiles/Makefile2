@@ -81,12 +81,12 @@ clean: CMakeFiles/monitorTasks.dir/clean
 CMakeFiles/monitorTasks.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitorTasks.dir/build.make CMakeFiles/monitorTasks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target monitorTasks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles --progress-num=1,2 "Built target monitorTasks"
 .PHONY : CMakeFiles/monitorTasks.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/monitorTasks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/monitorTasks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles 0
 .PHONY : CMakeFiles/monitorTasks.dir/rule
