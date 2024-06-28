@@ -24,3 +24,5 @@ If you already ran run.sh, you can find the compiled monitorTasks file inside co
 After compiling it once, you can navigate inside compiled folder and run:
    ```sh
    ./monitorTasks
+   ```
+You do not need to compile again unless you change the source code
