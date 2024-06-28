@@ -15,6 +15,6 @@ Ensure you have the following libraries installed:
    git clone https://github.com/emrebengue/EncryptedSystemMonitor.git
    cd EncryptedSystemMonitor
 
-2. cd inside bin directory:
+2. cd inside bin directory and run the following command:
    ```sh
    ./run.sh
