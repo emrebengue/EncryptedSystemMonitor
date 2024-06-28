@@ -14,7 +14,7 @@
 unsigned long long CpuMonitorTask::lastTotalUser = 0, CpuMonitorTask::lastTotalUserLow = 0, CpuMonitorTask::lastTotalSys = 0, CpuMonitorTask::lastTotalIdle = 0;
 
 CpuMonitorTask::CpuMonitorTask(const std::string& name) : Poco::Task(name), log_file("cpu_monitor.log") {
-    std::cout << "-------------Initializing CpuMonitorTask-------------\n" << std::endl;
+    std::cout << "\n-------------Initializing CpuMonitorTask-------------\n" << std::endl;
     logFile.open(log_file, std::ios::out | std::ios::app);
 
     if (logFile.is_open()) {

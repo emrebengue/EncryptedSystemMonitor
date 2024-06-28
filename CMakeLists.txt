@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(EncryptedSystemMonitor)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_PREFIX_PATH "${CMAKE_SOURCE_DIR}/lib/local/poco")
+set(CMAKE_PREFIX_PATH "${CMAKE_SOURCE_DIR}/lib/local")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(Poco REQUIRED Foundation Util)

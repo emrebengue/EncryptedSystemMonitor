@@ -1,3 +1,3 @@
-/home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles/monitorTasks.dir
-/home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles/edit_cache.dir
-/home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles/rebuild_cache.dir
+/home/emre/Desktop/EncryptedSystemMonitor/build/CMakeFiles/monitorTasks.dir
+/home/emre/Desktop/EncryptedSystemMonitor/build/CMakeFiles/edit_cache.dir
+/home/emre/Desktop/EncryptedSystemMonitor/build/CMakeFiles/rebuild_cache.dir

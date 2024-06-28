@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emre/.scripts/EncryptedSystemMonitor
+CMAKE_SOURCE_DIR = /home/emre/Desktop/EncryptedSystemMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emre/.scripts/EncryptedSystemMonitor/build
+CMAKE_BINARY_DIR = /home/emre/Desktop/EncryptedSystemMonitor/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/monitorTasks.dir/depend.make
@@ -69,35 +69,99 @@ include CMakeFiles/monitorTasks.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/monitorTasks.dir/flags.make
 
-CMakeFiles/monitorTasks.dir/src/server.cpp.o: CMakeFiles/monitorTasks.dir/flags.make
-CMakeFiles/monitorTasks.dir/src/server.cpp.o: ../src/server.cpp
-CMakeFiles/monitorTasks.dir/src/server.cpp.o: CMakeFiles/monitorTasks.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/monitorTasks.dir/src/server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monitorTasks.dir/src/server.cpp.o -MF CMakeFiles/monitorTasks.dir/src/server.cpp.o.d -o CMakeFiles/monitorTasks.dir/src/server.cpp.o -c /home/emre/.scripts/EncryptedSystemMonitor/src/server.cpp
+CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o: CMakeFiles/monitorTasks.dir/flags.make
+CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o: ../src/CpuMonitorTask.cpp
+CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o: CMakeFiles/monitorTasks.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Desktop/EncryptedSystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o -MF CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o.d -o CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o -c /home/emre/Desktop/EncryptedSystemMonitor/src/CpuMonitorTask.cpp
 
-CMakeFiles/monitorTasks.dir/src/server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitorTasks.dir/src/server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emre/.scripts/EncryptedSystemMonitor/src/server.cpp > CMakeFiles/monitorTasks.dir/src/server.cpp.i
+CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emre/Desktop/EncryptedSystemMonitor/src/CpuMonitorTask.cpp > CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.i
 
-CMakeFiles/monitorTasks.dir/src/server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitorTasks.dir/src/server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emre/.scripts/EncryptedSystemMonitor/src/server.cpp -o CMakeFiles/monitorTasks.dir/src/server.cpp.s
+CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emre/Desktop/EncryptedSystemMonitor/src/CpuMonitorTask.cpp -o CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.s
+
+CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o: CMakeFiles/monitorTasks.dir/flags.make
+CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o: ../src/MemoryMonitorTask.cpp
+CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o: CMakeFiles/monitorTasks.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Desktop/EncryptedSystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o -MF CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o.d -o CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o -c /home/emre/Desktop/EncryptedSystemMonitor/src/MemoryMonitorTask.cpp
+
+CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emre/Desktop/EncryptedSystemMonitor/src/MemoryMonitorTask.cpp > CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.i
+
+CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emre/Desktop/EncryptedSystemMonitor/src/MemoryMonitorTask.cpp -o CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.s
+
+CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o: CMakeFiles/monitorTasks.dir/flags.make
+CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o: ../src/decrypt.cpp
+CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o: CMakeFiles/monitorTasks.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Desktop/EncryptedSystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o -MF CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o.d -o CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o -c /home/emre/Desktop/EncryptedSystemMonitor/src/decrypt.cpp
+
+CMakeFiles/monitorTasks.dir/src/decrypt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitorTasks.dir/src/decrypt.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emre/Desktop/EncryptedSystemMonitor/src/decrypt.cpp > CMakeFiles/monitorTasks.dir/src/decrypt.cpp.i
+
+CMakeFiles/monitorTasks.dir/src/decrypt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitorTasks.dir/src/decrypt.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emre/Desktop/EncryptedSystemMonitor/src/decrypt.cpp -o CMakeFiles/monitorTasks.dir/src/decrypt.cpp.s
+
+CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o: CMakeFiles/monitorTasks.dir/flags.make
+CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o: ../src/encrypt.cpp
+CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o: CMakeFiles/monitorTasks.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Desktop/EncryptedSystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o -MF CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o.d -o CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o -c /home/emre/Desktop/EncryptedSystemMonitor/src/encrypt.cpp
+
+CMakeFiles/monitorTasks.dir/src/encrypt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitorTasks.dir/src/encrypt.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emre/Desktop/EncryptedSystemMonitor/src/encrypt.cpp > CMakeFiles/monitorTasks.dir/src/encrypt.cpp.i
+
+CMakeFiles/monitorTasks.dir/src/encrypt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitorTasks.dir/src/encrypt.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emre/Desktop/EncryptedSystemMonitor/src/encrypt.cpp -o CMakeFiles/monitorTasks.dir/src/encrypt.cpp.s
+
+CMakeFiles/monitorTasks.dir/src/main.cpp.o: CMakeFiles/monitorTasks.dir/flags.make
+CMakeFiles/monitorTasks.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/monitorTasks.dir/src/main.cpp.o: CMakeFiles/monitorTasks.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Desktop/EncryptedSystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/monitorTasks.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monitorTasks.dir/src/main.cpp.o -MF CMakeFiles/monitorTasks.dir/src/main.cpp.o.d -o CMakeFiles/monitorTasks.dir/src/main.cpp.o -c /home/emre/Desktop/EncryptedSystemMonitor/src/main.cpp
+
+CMakeFiles/monitorTasks.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitorTasks.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emre/Desktop/EncryptedSystemMonitor/src/main.cpp > CMakeFiles/monitorTasks.dir/src/main.cpp.i
+
+CMakeFiles/monitorTasks.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitorTasks.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emre/Desktop/EncryptedSystemMonitor/src/main.cpp -o CMakeFiles/monitorTasks.dir/src/main.cpp.s
 
 # Object files for target monitorTasks
 monitorTasks_OBJECTS = \
-"CMakeFiles/monitorTasks.dir/src/server.cpp.o"
+"CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o" \
+"CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o" \
+"CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o" \
+"CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o" \
+"CMakeFiles/monitorTasks.dir/src/main.cpp.o"
 
 # External object files for target monitorTasks
 monitorTasks_EXTERNAL_OBJECTS =
 
-../compiled/monitorTasks: CMakeFiles/monitorTasks.dir/src/server.cpp.o
+../compiled/monitorTasks: CMakeFiles/monitorTasks.dir/src/CpuMonitorTask.cpp.o
+../compiled/monitorTasks: CMakeFiles/monitorTasks.dir/src/MemoryMonitorTask.cpp.o
+../compiled/monitorTasks: CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o
+../compiled/monitorTasks: CMakeFiles/monitorTasks.dir/src/encrypt.cpp.o
+../compiled/monitorTasks: CMakeFiles/monitorTasks.dir/src/main.cpp.o
 ../compiled/monitorTasks: CMakeFiles/monitorTasks.dir/build.make
 ../compiled/monitorTasks: ../lib/local/poco/lib/libPocoUtil.so.103
 ../compiled/monitorTasks: ../lib/local/poco/lib/libPocoXML.so.103
 ../compiled/monitorTasks: ../lib/local/poco/lib/libPocoJSON.so.103
 ../compiled/monitorTasks: ../lib/local/poco/lib/libPocoFoundation.so.103
 ../compiled/monitorTasks: CMakeFiles/monitorTasks.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../compiled/monitorTasks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emre/Desktop/EncryptedSystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../compiled/monitorTasks"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monitorTasks.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +173,6 @@ CMakeFiles/monitorTasks.dir/clean:
 .PHONY : CMakeFiles/monitorTasks.dir/clean
 
 CMakeFiles/monitorTasks.dir/depend:
-	cd /home/emre/.scripts/EncryptedSystemMonitor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emre/.scripts/EncryptedSystemMonitor /home/emre/.scripts/EncryptedSystemMonitor /home/emre/.scripts/EncryptedSystemMonitor/build /home/emre/.scripts/EncryptedSystemMonitor/build /home/emre/.scripts/EncryptedSystemMonitor/build/CMakeFiles/monitorTasks.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emre/Desktop/EncryptedSystemMonitor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emre/Desktop/EncryptedSystemMonitor /home/emre/Desktop/EncryptedSystemMonitor /home/emre/Desktop/EncryptedSystemMonitor/build /home/emre/Desktop/EncryptedSystemMonitor/build /home/emre/Desktop/EncryptedSystemMonitor/build/CMakeFiles/monitorTasks.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/monitorTasks.dir/depend
 

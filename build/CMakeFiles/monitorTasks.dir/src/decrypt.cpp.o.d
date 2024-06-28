@@ -1,3 +1,2 @@
 CMakeFiles/monitorTasks.dir/src/decrypt.cpp.o: \
- /home/emre/.scripts/EncryptedSystemMonitor/src/decrypt.cpp \
- /usr/include/stdc-predef.h
+  /home/emre/Desktop/EncryptedSystemMonitor/src/decrypt.cpp
