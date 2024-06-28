@@ -18,3 +18,9 @@ Ensure you have the following libraries installed:
 2. cd inside bin directory and run the following command:
    ```sh
    ./run.sh
+
+If you already ran run.sh, you can find the compiled monitorTasks file inside compiled folder.
+
+After compiling it once, you can navigate inside compiled folder and run:
+   ```sh
+   ./monitorTasks
