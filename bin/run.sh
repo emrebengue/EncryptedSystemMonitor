@@ -2,4 +2,5 @@
 
 set -euo pipefail
 
-. ./scripts/monitorized_task_collection.sh
+./scripts/build_poco.sh
+./scripts/monitorized_task_collection.sh

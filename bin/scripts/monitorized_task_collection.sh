@@ -15,7 +15,7 @@ PROJECT_ROOT="${SCRIPT_DIR}/../.."
 # Define the Poco library directory
 POCO_DIR="${PROJECT_ROOT}/lib/local/poco"
 
-"${SCRIPT_DIR}/build_poco.sh"
+#"${SCRIPT_DIR}/build_poco.sh"
 
 # Set the LD_LIBRARY_PATH environment variable to include the Poco library path
 export LD_LIBRARY_PATH="${POCO_DIR}/lib:${LD_LIBRARY_PATH:-}"

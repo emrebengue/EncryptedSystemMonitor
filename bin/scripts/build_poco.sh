@@ -9,8 +9,15 @@ PROJECT_ROOT="${SCRIPT_DIR}/../.."
 # Define the Poco library directory
 POCO_DIR="${PROJECT_ROOT}/lib/local/poco"
 
-if [ ! -d "${POCO_DIR}" ]; then
+clone_poco(){
+    rm -rf "${POCO_DIR}"
     git clone https://github.com/pocoproject/poco.git "${POCO_DIR}"
+}
+
+
+if [ ! -d "${POCO_DIR}" ] || [ ! -f "${POCO_DIR}/CMakeLists.txt" ]; then
+    echo "cloning poco repository inside ${PROJECT_ROOT}/lib/local/poco"
+    clone_poco
 fi
 
 cd "${POCO_DIR}"
