@@ -1,4 +1,4 @@
-# EncryptedSystemMonitor
+# System-Monitoring
 (in progress)
 ## Installation
 
